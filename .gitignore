@@ -1,0 +1,13 @@
+# Python cahce
+__pycache__/
+
+*.py[cod]
+#virtual envi
+venv/
+.venv/
+#secrets
+.envi
+.streamlit/secrets.toml
+#editor
+.vscode/
+.DS_Store
