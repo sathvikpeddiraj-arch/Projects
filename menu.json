@@ -1,0 +1,63 @@
+
+[
+  {
+    "Item_ID": 1,
+    "Item_Name": "Chicken Biryani",
+    "Category": "Main Course",
+    "Price": 180
+  },
+  {
+    "Item_ID": 2,
+    "Item_Name": "Paneer Butter Masala",
+    "Category": "Main Course",
+    "Price": 160
+  },
+  {
+    "Item_ID": 3,
+    "Item_Name": "Veg Fried Rice",
+    "Category": "Main Course",
+    "Price": 120
+  },
+  {
+    "Item_ID": 4,
+    "Item_Name": "Chicken Burger",
+    "Category": "Fast Food",
+    "Price": 140
+  },
+  {
+    "Item_ID": 5,
+    "Item_Name": "Margherita Pizza",
+    "Category": "Fast Food",
+    "Price": 220
+  },
+  {
+    "Item_ID": 6,
+    "Item_Name": "Masala Dosa",
+    "Category": "Breakfast",
+    "Price": 80
+  },
+  {
+    "Item_ID": 7,
+    "Item_Name": "Idli Sambar",
+    "Category": "Breakfast",
+    "Price": 50
+  },
+  {
+    "Item_ID": 8,
+    "Item_Name": "French Fries",
+    "Category": "Snacks",
+    "Price": 90
+  },
+  {
+    "Item_ID": 9,
+    "Item_Name": "Cold Coffee",
+    "Category": "Beverages",
+    "Price": 100
+  },
+  {
+    "Item_ID": 10,
+    "Item_Name": "Chocolate Brownie",
+    "Category": "Dessert",
+    "Price": 110
+  }
+]
