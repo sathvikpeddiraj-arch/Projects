@@ -1,69 +1,106 @@
+# 🍽️ Smart Menu System
 
-Smart Menu System 🍽️
+A simple, interactive restaurant menu and billing application built with **Python** and **Streamlit**. Browse menu items, filter by category, select quantities, and generate an itemized bill with an automatically calculated total.
 
-A Python-based menu selection and billing application built using Streamlit. This project allows users to browse menu items, select what they want to order, and generate a bill based on their selections.
+## ✨ Features
 
-🚀 Features
+- 📋 **Menu Display** — View available menu items, their categories, and prices.
+- 🔎 **Category Filtering** — Filter menu items by category.
+- 🛒 **Quantity Selection** — Choose quantities for individual items.
+- 🧾 **Automatic Billing** — Generate an itemized bill with subtotals.
+- 💰 **Total Calculation** — Calculate the grand total automatically.
+- ✅ **Order Confirmation** — Confirm an order through an interactive interface.
+- 📂 **JSON Data Handling** — Load menu information from a JSON file.
 
-- View available menu items.
-- Select items for an order.
-- Add selected items to the order using an Order button.
-- Generate a bill based on the selected items.
-- Simple and interactive web interface built with Streamlit.
-- Menu data managed using JSON.
+## 🛠️ Tech Stack
 
-🛠️ Technologies Used
+| Technology | Purpose |
+|---|---|
+| Python | Application logic |
+| Streamlit | Interactive web interface |
+| JSON | Menu data storage |
 
-- Python — Application logic
-- Streamlit — Web interface
-- JSON — Menu data storage
+## 📁 Project Structure
 
-📁 Project Structure
-
+```text
 smart-menu-system/
 ├── app.py
 ├── menu.json
 ├── requirements.txt
 ├── README.md
-└── .gitignore
+├── .gitignore
+└── LICENSE
+```
 
-Note: Adjust the filenames above to match your actual project files.
+## 🚀 Getting Started
 
-⚙️ Installation and Setup
+Follow these steps to run the project locally.
 
-1. Clone the repository
+### Prerequisites
 
-git clone https://github.com/YOUR-USERNAME/smart-menu-system.git
-cd smart-menu-system
+- Python 3.9 or later
+- Git
 
-2. Create a virtual environment
+### 1. Clone the Repository
 
-python -m venv venv
+```bash
+git clone https://github.com/sathvikpeddiraj-arch/Projects.git
+```
 
-3. Activate the virtual environment
+Navigate into the project directory:
 
-Windows PowerShell:
+```bash
+cd Projects
+```
 
-.\venv\Scripts\Activate.ps1
+> **Note:** The repository is named `Projects`. If the application is inside a `smart-menu-system` subfolder, navigate into that folder before continuing.
 
-4. Install dependencies
+### 2. Create a Virtual Environment
 
-pip install -r requirements.txt
+```bash
+python -m venv .venv
+```
 
-5. Run the application
+### 3. Activate the Environment
 
+**Windows PowerShell:**
+
+```powershell
+.\.venv\Scripts\Activate.ps1
+```
+
+### 4. Install Dependencies
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+### 5. Run the Application
+
+```bash
 streamlit run app.py
+```
 
-The application will open in your browser.
+The application will open in your default browser.
 
-🎯 Project Objective
+## 🎯 Project Objective
 
-The objective of this project is to build a simple, interactive menu ordering and billing system while applying Python programming, JSON data handling, and Streamlit application development.
+This project was built to practice Python programming and develop a practical, interactive application using Streamlit. It demonstrates JSON data handling, category-based filtering, quantity management, session state, and basic billing logic.
 
-👨‍💻 Author
+## 🔮 Future Improvements
 
-Created as a Python and Streamlit project to practice application development and build practical programming skills.
+- Add a search function for menu items.
+- Improve input validation and error handling.
+- Store confirmed orders persistently.
+- Add order history and sales summaries.
+- Improve the user interface with menu images and a more polished layout.
 
-📄 License
+## 👨‍💻 Author
 
-This project is available for learning and portfolio demonstration. Add a specific open-source license if you intend to grant others formal permission to reuse or modify the code.
+**Sathvik Peddiraj**
+
+A Python project created as part of my journey in application development and problem-solving.
+
+## 📄 License
+
+See the [LICENSE](LICENSE) file for the licensing terms of this project.
