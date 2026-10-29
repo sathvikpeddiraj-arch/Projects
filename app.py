@@ -9,7 +9,7 @@ st.set_page_config(
 )
 
 # Read JSON file
-with open("menu.json", "r", encoding="utf-8") as file:
+with open("menu.json", "r") as file:
     menu_items = json.load(file)
 
 st.title("🍛 Smart Menu")
@@ -25,7 +25,7 @@ categories = sorted({
 })
 
 selected_category = st.selectbox(
-    "Filter by category",
+"Filter by category",
     ["All"] + categories
 )
 

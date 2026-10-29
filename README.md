@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 Smart Menu System 🍽️
 
 A Python-based menu selection and billing application built using Streamlit. This project allows users to browse menu items, select what they want to order, and generate a bill based on their selections.
@@ -67,6 +67,3 @@ Created as a Python and Streamlit project to practice application development an
 📄 License
 
 This project is available for learning and portfolio demonstration. Add a specific open-source license if you intend to grant others formal permission to reuse or modify the code.
-=======
-# My-Projects
->>>>>>> origin/main
